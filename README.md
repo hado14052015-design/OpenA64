@@ -27,7 +27,6 @@ hado14.05.2015@gmail.com
 | Total lines | ~150M |
 | Top module | `arm_top` (`verilog/arm_top.v`) |
 | ISA theme | AArch64 (ARMv8) — GPR `X0–X30`, `NZCV`, NEON 128-bit SIMD |
-| Target library | Sky130 HD (`sky130_fd_sc_hd__tt_025C_1v80.lib`) |
 
 ## Project layout
 
@@ -41,7 +40,7 @@ OpenA64/
 │   ├── arm_cache_hierarchy.v
 │   ├── arm_npu.v            # Neural-network / MAC accelerator
 │   └── ... (34 files total)
-└── (PDK files (only sky130 liberty files and lef and tlef files) at repo root and verilog files are comressed for the file size limits — see other docs)
+└── (verilog files are comressed for the file size limits — see other docs)
 ```
 
 ## Structure of each file
