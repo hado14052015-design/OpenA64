@@ -6,7 +6,7 @@ peripherals). The RTL lives entirely in [`verilog/`](verilog/).
 
 ## Disclaimer
 
-OpenA64 is an independent hobby/research project.
+OpenA64 just means OpenARM64 and is an independent hobby/research project.
 
 It is **not affiliated with, endorsed by, sponsored by, or associated with Arm Ltd.**
 
